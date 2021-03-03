@@ -1,0 +1,227 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+/* ### Primary
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+### Neutral
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%) */
+
+
+body{
+  font-family: 'Open Sans', sans-serif;  
+  padding: 0%;
+  margin: 0%;
+  font-size: 0%;
+}
+
+.logo{
+height: 34px ;
+}
+
+.btn{
+background-color: white;
+color:hsl(321, 100%, 78%) ;
+border: 2px solid hsl(321, 100%, 78%);
+border-radius: 20px;
+font-weight: 500;
+width: 100px;
+height: 40px;
+margin-left: 65vw;
+font-size: 0.8rem;
+}
+
+.navBar{
+  height: 16vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.header{
+  margin-top: 12%;
+  text-align: center;
+}
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(209, 32%, 13%);
+}
+.subtitle{
+font-weight: 520;
+line-height: 0.5em;
+margin-bottom: 3% ;
+color: rgb(71, 70, 70);
+font-size: 1rem;
+}
+.startButton{
+  background-color:hsl(321, 100%, 78%)  ;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  width: 200px;
+  height: 50px;
+}
+.mainPicture{
+  margin-top: 4% ;
+  text-align: center;
+}
+.mock-up{
+  width: 53%;
+}
+
+/*middle section*************************/
+.middle{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+font-size: 0.7rem;
+color:rgb(71, 70, 70) ;
+font-weight: 500;
+display: inline-block;
+margin-top: 5%;
+font-size: 0.8rem;
+
+}
+.cardImg{
+  width: 15%;
+}
+
+.textInsideCard{
+  text-align: center;
+}
+
+.num{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(209, 32%, 13%);
+  margin: 1px 5px;
+  margin-left: 0;
+}
+
+/* curve area**********************/
+.curveImg, .curveImg2{
+  width: 99vw;
+}
+.mainWave{
+  background-color: hsl(207, 100%, 98%) ;
+  text-align: center;
+}
+.waveText{
+  display: inline-block;
+  position:relative;
+  bottom: 120px;
+  right: 50px;
+  font-size: 0.9rem;
+  line-height: 0.8em;
+  text-align: start;
+  font-weight: 600;
+  color:rgb(71, 70, 70) ;
+  
+}
+.growImg{
+  width: 30%;
+  padding-top: 2%;
+  
+}
+.h2{
+  font-size: 1.8rem;
+  color:hsl(209, 32%, 13%) ;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 8%;
+}
+
+.whiteText{
+  display: inline-block;
+  position:relative;
+  bottom: 80px;
+  left: 100px;
+  font-size: 0.9rem;
+  line-height: 0.8em;
+  text-align: start;
+  font-weight: 600;
+  color:rgb(71, 70, 70) ;
+}
+
+.whiteH2{
+  font-size: 1.8rem;
+  color:hsl(209, 32%, 13%) ;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 8%;
+}  
+
+.whiteWave{
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 18%;
+}
+
+.lastWave{
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.h3{
+  
+  font-size: 1.8rem;
+  color:hsl(209, 32%, 13%) ;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2%;
+}
+
+/****FOOTER************/
+.footer{
+  color: white;
+  background-color:hsl(192, 100%, 9%) ;
+  font-size: 0.8rem;
+  line-height: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aside{
+  display: inline-block;
+  margin-top: 4%;
+  margin-bottom: 7%;
+}
+.logoFooter{
+  height: 34px;
+}
+.phone{
+  margin-left: 8px;
+position: relative;
+display: inline-block;
+}
+
+h4{
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+#input{
+  margin-top: 5px;
+height: 35px;
+width: 210px;
+box-sizing: border-box;
+border-radius: 5px;
+color:hsl(321, 100%, 78%) ;
+border: 2px solid hsl(321, 100%, 78%);
+}
+
+.button{
+  height: 35px;
+  width: 110px;
+  border-radius: 5px;
+  border: 0;
+  background-color:hsl(321, 100%, 78%) ;
+  margin-left: 5px;
+}
+.notice{
+  font-size: 0.7rem ;
+  color:hsl(0, 100%, 63%) ;
+}
